@@ -1,0 +1,18 @@
+"""Factorial function
+Version 2 - TDD
+Added exception raising when argument is negative
+"""
+
+def fact(number):
+    """
+    Factorial function
+
+    :arg number: number
+    :returns: factorial of n
+
+    """
+    if number < 0:
+        raise ValueError('Factorial is defined only for non-negative numbers')
+    if number == 0:
+        return 1
+    return number * fact(number - 1)
