@@ -1,5 +1,6 @@
 """Factorial function
 Version 2 - TDD
+This function was written and adapted after the tests were written
 Added exception raising when argument is negative
 """
 
