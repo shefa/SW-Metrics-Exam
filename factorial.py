@@ -1,5 +1,4 @@
-"""Factorial function
-Version 2 - TDD
+"""Factorial function - Version 2 - TDD
 This function was written and adapted after the tests were written
 Added exception raising when argument is negative
 """
@@ -7,10 +6,6 @@ Added exception raising when argument is negative
 def fact(number):
     """
     Factorial function
-
-    :arg number: number
-    :returns: factorial of n
-
     """
     if number < 0:
         raise ValueError('Factorial is defined only for non-negative numbers')
